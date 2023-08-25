@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <title>📚 Future Bookshelf</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+    <body class="container-xxl">
+        <main class="mx-3 my-5">
+            <!-- App header -->
+            <header class="row">
+                <h1 class="h1">📚 Future Bookshelf</h1>
+                <!-- App navigation -->
+                <nav class="my-3 position-relative">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                        <input data-action="search" class="form-control" type="search" placeholder="Search for a book" aria-label="Search for a book">
+                    </div>
+                    <!-- Search results -->
+                    <div data-name="dropdown" class="mt-2 container-fluid border rounded position-absolute bg-white start-0">
+
+                    </div>
+                </nav>
+            </header>
+            <!-- Bookshelf -->
+            <section class="row mt-5">
+                <p class="py-3 text-center fw-bold border-bottom">My bookshelf</p>
+                <div data-name="bookshelf" class="container-fluid">
+                    
+                </div>
+            </section>
+        </main>
+        <script type="module" src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
